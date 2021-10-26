@@ -1,4 +1,4 @@
-package com.upbit.simulation.api.market.model;
+package com.upbit.simulation.api.market;
 
 import lombok.Data;
 

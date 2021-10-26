@@ -1,10 +1,8 @@
 package com.upbit.simulation.api.market;
 
-import com.upbit.simulation.api.market.model.Market;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
-import reactor.core.publisher.Mono;
 
 import java.util.List;
 

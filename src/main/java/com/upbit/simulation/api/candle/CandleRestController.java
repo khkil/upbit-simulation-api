@@ -14,7 +14,7 @@ public class CandleRestController {
     CandleService candleService;
 
     @GetMapping("/minutes/{minute}")
-    public ResponseEntity getCandlesPerMinutes(@PathVariable int minute, @RequestParam Candle candle){
+    public ResponseEntity getCandlesPerMinutes(@PathVariable int minute, Candle candle){
         List<Candle> candlesPerMinutes = candleService.getCandlesPerMinutes(minute, candle);
         return ResponseEntity.ok(candlesPerMinutes);
     }
